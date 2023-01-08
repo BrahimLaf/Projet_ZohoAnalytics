@@ -1,15 +1,15 @@
-version: "3"
-
+version: '3.1'
 services:
-  zoho:
-    build:
-      context: docker
+  database:
+    image: postgres
+    ports:
+      - "28017:28017"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USERNAME=postgres
+  web:
+
+    image: zohoanalytics/onprem
     ports:
       - 8443:8443
       - 33366:33366
-    volumes:
-      - data-postgre:/app/Analytics/pgsql
-
-volumes:
-  data-postgre:
-    driver: local
