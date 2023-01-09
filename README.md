@@ -13,7 +13,7 @@ Zoho Analytics is a self-service BI and data analytics software that lets you an
 
 ### 3. Steps to deploy
 
-#              ###### Step 1. 
+              ###### Step 1. 
               ###### Step 2. Check the containers that are running using the following command: docker ps
 
               ###### Step 3. Execute an interactive bash shell on the downloaded container using the following command: sudo docker exec -it projet_zohoanalytics-Web-1 bash
