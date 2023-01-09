@@ -1,13 +1,25 @@
 version: '3.1'
 services:
   database:
+    container_name: postgres
     image: postgres
-    ports:
-      - "28017:28017"
+    restart: always
     environment:
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_USERNAME=postgres
-  web:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: passer
+    ports:
+      - "5432:5432"
+  pgadmin:
+    container_name: postadm
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "6081:80"
+
+   web:
     image: zohoanalytics/onprem
     ports:
       - 8443:8443
