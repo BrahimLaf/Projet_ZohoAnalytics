@@ -13,5 +13,28 @@ Zoho Analytics is a self-service BI and data analytics software that lets you an
 
 ### 3. Steps to deploy
 
+###### Step 1. 
+###### Step 2. Check the containers that are running using the following command: docker ps
+
+###### Step 3. Execute an interactive bash shell on the downloaded container using the following command: sudo docker exec -it projet_zohoanalytics-Web-1 bash
+
+###### Step 4. Before starting the application, switch to the Zoho/Analytics/bin repository.
+
+###### Step 5. Start Zoho Analytics On-Premise using the command: nohup sh app_ctl.sh run &. 
+
+###### Step 6. Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
 
 
+
+###### Step 5. Use the command disown to remove jobs from the job table of the parent shell
+
+
+###### Step 6. To stop the application, use the following command: sh app_ctl.sh shutdown
+
+
+
+
+
+Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise. Please change the default password upon login.
+Username: admin
+Password: admin
