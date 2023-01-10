@@ -16,7 +16,8 @@ This image represents my architecture that I used for the realization of mon pro
 
 ### 4. Steps to deploy
 
-###### Step 1. Launch docker compose .yml: Sudo docker-compose -f Docker-compose.yml up -d
+###### Step 1. Launch docker compose .yml: 
+        Sudo docker-compose -f Docker-compose.yml up -d
 ![image](https://user-images.githubusercontent.com/115103788/211642843-8beb1ae3-e286-409a-9a91-0842d6c35936.png)
 
 ###### Step 2. Check the containers that are running using the following command: docker ps
