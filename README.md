@@ -45,10 +45,9 @@ This image represents my architecture that I used for the realization of mon pro
 
 ![image](https://user-images.githubusercontent.com/115103788/211643721-810b07e4-0ce3-4b18-97fd-a8a98ef4d31d.png)
 
-###### Step 8. Use the command disown to remove jobs from the job table of the parent shell
 
-
-###### Step 9. To stop the application, use the following command: sh app_ctl.sh shutdown
+###### Step 8. To stop the application, use the following command:
+       sh app_ctl.sh shutdown
 
 
 
