@@ -34,11 +34,11 @@ This image represents my architecture that I used for the realization of mon pro
 ###### Step 6. Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
 
 ###### Step 7. Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
-  ###### Username: admin
-  ###### Password: admin
+    Username: admin
+    Password: admin
 ![image](https://user-images.githubusercontent.com/115103788/211643664-3d8e9beb-6af1-4348-a9b0-5c4a001b2357.png)
 
-###### Step 7. Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
+
 ![image](https://user-images.githubusercontent.com/115103788/211643721-810b07e4-0ce3-4b18-97fd-a8a98ef4d31d.png)
 
 ###### Step 8. Use the command disown to remove jobs from the job table of the parent shell
