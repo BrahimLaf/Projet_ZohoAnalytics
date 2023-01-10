@@ -45,6 +45,9 @@ This image represents my architecture that I used for the realization of mon pro
 
 ![image](https://user-images.githubusercontent.com/115103788/211643721-810b07e4-0ce3-4b18-97fd-a8a98ef4d31d.png)
 
+![image](https://user-images.githubusercontent.com/115103788/211647597-1db76ae3-8a54-4c90-883c-fdb161db7f75.png)
+
+![image](https://user-images.githubusercontent.com/115103788/211647626-1809e348-2c13-4648-80f7-461c3f0cb732.png)
 
 ###### Step 8. To stop the application, use the following command:
        sh app_ctl.sh shutdown
