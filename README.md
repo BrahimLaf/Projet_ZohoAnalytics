@@ -25,8 +25,8 @@ Zoho Analytics is a self-service BI and data analytics software that lets you an
 ###### Step 6. Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
 
 ###### Step 7. Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
-        Username: admin
-        Password: admin
+  ###### Username: admin
+  ###### Password: admin
 
 ###### Step 8. Use the command disown to remove jobs from the job table of the parent shell
 
