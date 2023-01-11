@@ -14,7 +14,10 @@ Zoho Analytics is a self-service BI and data analytics software that lets you an
 
 This image represents my architecture that I used for the realization of mon project. Indeed, I used Zoho Analytics On-Premose, Postgres and PgAdmin linked via a docker-compose.yml file on a microsoft azure virtual machine. I then, using the Zoho Analytics On-premise, visualized the data from I database in Postgres.
 
-### 4. Steps to deploy Zoho Analytics On-Premise
+
+### 4. Steps to deploy Zoho Analytics On-Premise, Postgres and pgAdmin
+
+### 4.1 Steps to deploy Postgres and pgAdmin
 
 ###### Step 1. Launch docker compose .yml: 
        Sudo docker-compose -f Docker-compose.yml up -d
