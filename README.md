@@ -39,7 +39,7 @@ This image represents my architecture that I used for the realization of mon pro
 ![image](https://user-images.githubusercontent.com/115103788/211643492-4e9416d5-355f-46aa-b39c-1a1cd4d7ddd9.png)
 
 ###### Step 6. Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
-        https://serverIPaddress:8443
+        https://serverIPaddress:8443. Important : Please be patient, it takes some time (2 à 3 minutes) to start the server.
 ###### Step 7. Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
     Username: admin
     Password: admin
